@@ -1,0 +1,17 @@
+1- for each is a method in array object which allows you to iterate over all elements of the array and do 
+   speciefic action on the original one and returns default , while (for...of) is iterable in loop statement only on the element 
+   to do something without returning a value
+
+2- hoisting is the process of giving variables and functions place in memory and defining them before execuation 
+   in var (it declared before execuation but initialized as undefined) , const and let (declared also without initialization )
+   and enters temporal dead zone (tdz) where interpreter can see variables but not initialized 
+
+3- == is equality operators which check equality in value only while === check value and type also
+
+4- try is trying to do something and if it emmits error instead of stop execuation the catch satatment 
+   will be execuated , it is importent in async because it prevent server crashing if an execuatable error appears
+
+5- type conversion is make by developer like number("13") which converts 13 from string to number and like String(12) which 
+   converts number to string ,also like boolean() , while coercion is made by js compieler when you make different type of data
+   like adding string and number it consider both string and make concatenation ( "5" + 5 = 55 ) ,if you subtract number from 
+   string it convert string to number and execuate mathematical operation ( "25" - 5 = 20 )
