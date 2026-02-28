@@ -64,12 +64,19 @@ dest(person)
 let sum = (...y)=> y.reduce((acc,ele)=> acc+ele)
 console.log(sum(1,2,3,4,5));
 
+const fn =function(){
+    return new Promise((res) => setTimeout(()=>res("success"),3000))
+}
+fn().then(res => console.log(res))
+
 let largestNumber = x => x.reduce((acc,ele) => ele>acc ?ele:acc)
 
 console.log(largestNumber([1,2,3,17,20,6]));
 
 
-let keys = (m)=>m.Acc
+let keys = (m)=>Object.keys(m)
+console.log(keys(person));
+
 
 let split = x=>x.split(" ");
 console.log(split("the quick brown fox"));
